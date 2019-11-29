@@ -2279,5 +2279,55 @@
     "valid": true,
     "signer_private_key": "7SOOT9aGL5XSH/o8SOyrjsWxKmddFKZ6MXseSHUhfv7wxyceUw9jsYhN77NEKOEMDgF7HLGsIPlJajNx6jr07Q==",
     "signer_public_key": "8McnHlMPY7GITe+zRCjhDA4BexyxrCD5SWozceo69O0="
+  },
+  {
+    "kind": "AmendCommissionSchedule",
+    "signature_context": "oasis-core/consensus: tx for chain test-chain-id",
+    "tx": {
+      "nonce": 18446744073709551615,
+      "fee": {
+        "amount": "4242",
+        "gas": 1000
+      },
+      "method": "staking.AmendCommissionSchedule",
+      "body": {
+        "amendment": {
+          "rates": [
+            {
+              "start": 1000000,
+              "rate": "100000"
+            },
+            {
+              "start": 1000002,
+              "rate": "90000"
+            }
+          ],
+          "bounds": [
+            {
+              "start": 1000000,
+              "rate_min": "100000",
+              "rate_max": "100000"
+            },
+            {
+              "start": 1000003,
+              "rate_min": "90000",
+              "rate_max": "90000"
+            }
+          ]
+        }
+      }
+    },
+    "signed_tx": {
+      "untrusted_raw_value": "pGNmZWWiY2dhcxkD6GZhbW91bnRCEJJkYm9keaFpYW1lbmRtZW50omVyYXRlc4WiZHJhdGVDAYagZXN0YXJ0GgAPQkCiZHJhdGVDAYagZXN0YXJ0GgAPQkCiZHJhdGVDAYagZXN0YXJ0GgAPQkCiZHJhdGVDAYagZXN0YXJ0GgAPQkCiZHJhdGVDAYagZXN0YXJ0GgAPQkBmYm91bmRzhaNlc3RhcnQaAA9CQGhyYXRlX21heEMBhqBocmF0ZV9taW5DAYago2VzdGFydBoAD0JAaHJhdGVfbWF4QwGGoGhyYXRlX21pbkMBhqCjZXN0YXJ0GgAPQkBocmF0ZV9tYXhDAYagaHJhdGVfbWluQwGGoKNlc3RhcnQaAA9CQGhyYXRlX21heEMBhqBocmF0ZV9taW5DAYago2VzdGFydBoAD0JAaHJhdGVfbWF4QwGGoGhyYXRlX21pbkMBhqBlbm9uY2Ub//////////9mbWV0aG9keB9zdGFraW5nLkFtZW5kQ29tbWlzc2lvblNjaGVkdWxl",
+      "signature": {
+        "public_key": "8McnHlMPY7GITe+zRCjhDA4BexyxrCD5SWozceo69O0=",
+        "signature": "/eaa/aGbFPY4Zyt/uijLZ0QvFeisL86SIboCbr30k5eHuHuTY4vArI9PxdIGzdfqBPB9tB3pYzFhRNyl3O5dBA=="
+      }
+    },
+    "encoded_tx": "pGVub25jZRv//////////2NmZWWiZmFtb3VudGQ0MjQyY2dhcxkD6GZtZXRob2R4H3N0YWtpbmcuQW1lbmRDb21taXNzaW9uU2NoZWR1bGVkYm9keaFpYW1lbmRtZW50omVyYXRlc4KiZXN0YXJ0GgAPQkBkcmF0ZWYxMDAwMDCiZXN0YXJ0GgAPQkJkcmF0ZWU5MDAwMGZib3VuZHOCo2VzdGFydBoAD0JAaHJhdGVfbWluZjEwMDAwMGhyYXRlX21heGYxMDAwMDCjZXN0YXJ0GgAPQkNocmF0ZV9taW5lOTAwMDBocmF0ZV9tYXhlOTAwMDA=",
+    "encoded_signed_tx": "omlzaWduYXR1cmWiaXNpZ25hdHVyZVhA/eaa/aGbFPY4Zyt/uijLZ0QvFeisL86SIboCbr30k5eHuHuTY4vArI9PxdIGzdfqBPB9tB3pYzFhRNyl3O5dBGpwdWJsaWNfa2V5WCDwxyceUw9jsYhN77NEKOEMDgF7HLGsIPlJajNx6jr07XN1bnRydXN0ZWRfcmF3X3ZhbHVlWQGVpGNmZWWiY2dhcxkD6GZhbW91bnRCEJJkYm9keaFpYW1lbmRtZW50omVyYXRlc4WiZHJhdGVDAYagZXN0YXJ0GgAPQkCiZHJhdGVDAYagZXN0YXJ0GgAPQkCiZHJhdGVDAYagZXN0YXJ0GgAPQkCiZHJhdGVDAYagZXN0YXJ0GgAPQkCiZHJhdGVDAYagZXN0YXJ0GgAPQkBmYm91bmRzhaNlc3RhcnQaAA9CQGhyYXRlX21heEMBhqBocmF0ZV9taW5DAYago2VzdGFydBoAD0JAaHJhdGVfbWF4QwGGoGhyYXRlX21pbkMBhqCjZXN0YXJ0GgAPQkBocmF0ZV9tYXhDAYagaHJhdGVfbWluQwGGoKNlc3RhcnQaAA9CQGhyYXRlX21heEMBhqBocmF0ZV9taW5DAYago2VzdGFydBoAD0JAaHJhdGVfbWF4QwGGoGhyYXRlX21pbkMBhqBlbm9uY2Ub//////////9mbWV0aG9keB9zdGFraW5nLkFtZW5kQ29tbWlzc2lvblNjaGVkdWxl",
+    "valid": true,
+    "signer_private_key": "7SOOT9aGL5XSH/o8SOyrjsWxKmddFKZ6MXseSHUhfv7wxyceUw9jsYhN77NEKOEMDgF7HLGsIPlJajNx6jr07Q==",
+    "signer_public_key": "8McnHlMPY7GITe+zRCjhDA4BexyxrCD5SWozceo69O0="
   }
 ]
