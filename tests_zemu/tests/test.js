@@ -363,7 +363,7 @@ describe('Basic checks', function () {
             console.log(resp);
 
             expect(resp.return_code).toEqual(0x6984);
-            expect(resp.error_message).toEqual("Data is invalid : Invalid name length (max 51 characters)");
+            expect(resp.error_message).toEqual("Data is invalid : Invalid name length (max 50 characters)");
         } finally {
             await sim.close();
         }
